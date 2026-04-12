@@ -22,7 +22,7 @@ class LongestSubstring {
             // Update the character's latest index
             map.put(current, i);
 
-            // Calculate the current window length 
+            // Calculate the current window length
             int currentLength = i - start + 1;
 
             // Update the maximum length
