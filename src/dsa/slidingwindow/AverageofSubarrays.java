@@ -12,7 +12,7 @@ class AverageofSubarrays {
 
         int right;
 
-        
+
         for (right = 0; right < k; right++) {
             windowSum += arr[right];
         }
