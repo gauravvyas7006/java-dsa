@@ -16,7 +16,7 @@ class LinkedListCycle{
         head.next = secound;
         secound.next = third;
         third.next = fourth;
-        
+
         System.out.println(hasCycle(head));
     }
 
